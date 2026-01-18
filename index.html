@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kuis Online Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Kuis Online</h1>
+
+    <form id="quizForm">
+
+        <div class="question">
+            <p>1. HTML adalah singkatan dari?</p>
+            <input type="radio" name="q1" value="0"> Hyper Tool Markup Language <br>
+            <input type="radio" name="q1" value="20"> Hyper Text Markup Language <br>
+            <input type="radio" name="q1" value="0"> Hyperlinks Text Mark Language <br>
+            <input type="radio" name="q1" value="0"> Home Tool Markup Language
+        </div>
+
+        <div class="question">
+            <p>2. CSS digunakan untuk?</p>
+            <input type="radio" name="q2" value="0"> Membuat database <br>
+            <input type="radio" name="q2" value="0"> Membuat logika program <br>
+            <input type="radio" name="q2" value="20"> Mengatur tampilan website <br>
+            <input type="radio" name="q2" value="0"> Menghubungkan server
+        </div>
+
+        <div class="question">
+            <p>3. JavaScript digunakan untuk?</p>
+            <input type="radio" name="q3" value="20"> Membuat website menjadi interaktif <br>
+            <input type="radio" name="q3" value="0"> Mengatur warna <br>
+            <input type="radio" name="q3" value="0"> Membuat tabel <br>
+            <input type="radio" name="q3" value="0"> Membuat database
+        </div>
+
+        <div class="question">
+            <p>4. Tag untuk membuat link di HTML adalah?</p>
+            <input type="radio" name="q4" value="0"> &lt;p&gt; <br>
+            <input type="radio" name="q4" value="0"> &lt;div&gt; <br>
+            <input type="radio" name="q4" value="20"> &lt;a&gt; <br>
+            <input type="radio" name="q4" value="0"> &lt;link&gt;
+        </div>
+
+        <div class="question">
+            <p>5. Perintah untuk menampilkan alert di JavaScript?</p>
+            <input type="radio" name="q5" value="0"> msg() <br>
+            <input type="radio" name="q5" value="0"> console.log() <br>
+            <input type="radio" name="q5" value="20"> alert() <br>
+            <input type="radio" name="q5" value="0"> prompt()
+        </div>
+
+        <button type="button" onclick="cekJawaban()">Submit Jawaban</button>
+        <button type="button" onclick="resetKuis()">Ulangi Kuis</button>
+
+    </form>
+
+    <div id="hasil" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

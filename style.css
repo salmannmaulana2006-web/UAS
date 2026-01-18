@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #edf2ec;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    background: rgb(196, 234, 220);
+    padding: 100px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #3498db;
+    color: rgb(254, 253, 253);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #18dc0e;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
+
+.lulus {
+    background: #2ecc71;
+    color: white;
+}
+
+.tidak-lulus {
+    background: #e74c3c;
+    color: white;
+}
